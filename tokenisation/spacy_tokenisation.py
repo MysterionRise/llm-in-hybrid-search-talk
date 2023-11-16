@@ -17,4 +17,6 @@ def spacy_tokenize(text):
 # Example usage
 text = "spaCy also handles complex cases like contractions, e.g., don't."
 tokens = spacy_tokenize(text)
-print(tokens)
+print(f"Input text: {text}")
+print("")
+print(f"Tokens: {tokens}")

@@ -11,4 +11,6 @@ def simple_tokenize(text):
 # Example usage
 text = "Example text: Tokenization is essential."
 tokens = simple_tokenize(text)
-print(tokens)
+print(f"Input text: {text}")
+print("")
+print(f"Tokens: {tokens}")

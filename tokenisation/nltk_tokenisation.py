@@ -16,4 +16,6 @@ text = (
     "NLTK's tokenizer is more advanced: It handles punctuation, for instance."
 )
 tokens = nltk_tokenize(text)
-print(tokens)
+print(f"Input text: {text}")
+print("")
+print(f"Tokens: {tokens}")
